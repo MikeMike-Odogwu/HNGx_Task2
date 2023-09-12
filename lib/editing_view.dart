@@ -81,7 +81,13 @@ class _EditingViewState extends State<EditingView> {
 
                     log('save button has been press');
                   },
-                  child: const Text("Save Changes"),
+                  child: const Text(
+                    'Save Changes',
+                    style: TextStyle(
+                        fontSize: 15,
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.bold),
+                  ),
                 ),
               ),
             ],
